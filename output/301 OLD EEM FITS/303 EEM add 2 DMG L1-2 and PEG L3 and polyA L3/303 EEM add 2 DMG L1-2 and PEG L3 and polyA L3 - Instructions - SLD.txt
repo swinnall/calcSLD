@@ -1,0 +1,47 @@
+,,,,title=303 EEM add 2 DMG L1-2 and PEG L3 and polyA L3
+membranes,lipidRatios,d1,d2,label
+POPC:DOPE:SM:Cholesterol,40:20:6:34,13.361,7.49,h-EEM
+d31-POPC:DOPE:SM:Cholesterol,40:20:6:34,13.361,7.49,d-EEM
+
+~~~~
+Calculated Membrane: ['POPC', 'DOPE', 'SM', 'Cholesterol']
+Corresponding ratio: ['40', '20', '6', '34']
+Average SL;  Head = 38.8445; Tail = -11.3593
+Average SLD; Head = 1.9141; Tail = -0.1356
+Thickness;   Head = 7.4900; Tail = 13.3610
+Head vol frac = 0.4320
+2-solv = 56.7972
+
+Calculated Membrane: ['Monolayer', 'DMG-PEG-2000']
+Corresponding ratio: [98, 2]
+Average SL;  Head = 38.9220; Tail = -11.6977
+Average SLD; Head = 1.9079; Tail = -0.1398
+Thickness;   Head = 7.4900; Tail = 13.3610
+Head vol frac = 0.4350
+2-solv = 56.4976
+
+Drug ['PolyA', 'PEG'] added to layer 3 of monolayer:
+Corresponding ratio: [98, 2]
+SLD of overlapping drug in H2O: 3.6090
+SLD of overlapping drug in D2O: 4.3832
+~~~~
+Calculated Membrane: ['d31-POPC', 'DOPE', 'SM', 'Cholesterol']
+Corresponding ratio: ['40', '20', '6', '34']
+Average SL;  Head = 38.8445; Tail = 117.7247
+Average SLD; Head = 1.9141; Tail = 1.4049
+Thickness;   Head = 7.4900; Tail = 13.3610
+Head vol frac = 0.4320
+2-solv = 56.7972
+
+Calculated Membrane: ['Monolayer', 'DMG-PEG-2000']
+Corresponding ratio: [98, 2]
+Average SL;  Head = 38.9220; Tail = 114.8046
+Average SLD; Head = 1.9079; Tail = 1.3724
+Thickness;   Head = 7.4900; Tail = 13.3610
+Head vol frac = 0.4350
+2-solv = 56.4976
+
+Drug ['PolyA', 'PEG'] added to layer 3 of monolayer:
+Corresponding ratio: [98, 2]
+SLD of overlapping drug in H2O: 3.6090
+SLD of overlapping drug in D2O: 4.3832

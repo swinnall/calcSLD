@@ -1,0 +1,44 @@
+title=311 LEM-LNP lipid exchange SLD values
+membranes,lipidRatios,d1,d2,label
+d31-POPC:DOPE:LBPA:Cholesterol,61:16:6:17,10.521,10,Original d-LEM
+d31-POPC:DOPE:LBPA:Cholesterol:DSPC,61:6:6:17:10,10.521,10,DOPE loss DSPC gain
+d31-POPC:DOPE:LBPA:Cholesterol:DLin-MC3-DMA,61:6:6:17:10,10.521,10,DOPE loss MC3 gain
+d31-POPC:DOPE:LBPA:Cholesterol,61:6:6:27,10.521,10,DOPE loss Chol gain
+d31-POPC:DOPE:LBPA:Cholesterol:DSPC,51:16:6:17:10,10.521,10,dPOPC loss DSPC gain
+d31-POPC:DOPE:LBPA:Cholesterol:DLin-MC3-DMA,51:16:6:17:10,10.521,10,dPOPC loss MC3 gain
+d31-POPC:DOPE:LBPA:Cholesterol,51:16:6:27,10.521,10,dPOPC loss Chol gain
+
+~~~~ Original d-LEM
+Calculated Membrane: ['d31-POPC', 'DOPE', 'LBPA', 'Cholesterol']
+Corresponding ratio: ['61', '16', '6', '17']
+Average SLD; Head = 1.8496; Tail = 2.0759
+
+~~~~ DOPE loss DSPC gain
+Calculated Membrane: ['d31-POPC', 'DOPE', 'LBPA', 'Cholesterol', 'DSPC']
+Corresponding ratio: ['61', '6', '6', '17', '10']
+Average SLD; Head = 1.7844; Tail = 2.0505
+
+~~~~ DOPE loss MC3 gain
+Calculated Membrane: ['d31-POPC', 'DOPE', 'LBPA', 'Cholesterol', 'DLin-MC3-DMA']
+Corresponding ratio: ['61', '6', '6', '17', '10']
+Average SLD; Head = 1.6700; Tail = 2.0757
+
+~~~~ DOPE loss Chol gain
+Calculated Membrane: ['d31-POPC', 'DOPE', 'LBPA', 'Cholesterol']
+Corresponding ratio: ['61', '6', '6', '27']
+Average SLD; Head = 1.7784; Tail = 2.1989
+
+~~~~ dPOPC loss DSPC gain
+Calculated Membrane: ['d31-POPC', 'DOPE', 'LBPA', 'Cholesterol', 'DSPC']
+Corresponding ratio: ['51', '16', '6', '17', '10']
+Average SLD; Head = 1.8653; Tail = 1.6824
+
+~~~~ dPOPC loss MC3 gain
+Calculated Membrane: ['d31-POPC', 'DOPE', 'LBPA', 'Cholesterol', 'DLin-MC3-DMA']
+Corresponding ratio: ['51', '16', '6', '17', '10']
+Average SLD; Head = 1.7480; Tail = 1.7087
+
+~~~~ dPOPC loss Chol gain
+Calculated Membrane: ['d31-POPC', 'DOPE', 'LBPA', 'Cholesterol']
+Corresponding ratio: ['51', '16', '6', '27']
+Average SLD; Head = 1.8703; Tail = 1.8137

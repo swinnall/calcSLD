@@ -1,0 +1,25 @@
+,,,,title=314 LEM add 10 DMG L1-2 and PEG L3 mushroom and PolyA
+membranes,lipidRatios,d1,d2,label
+d31-POPC:DOPE:LBPA:Cholesterol,61:16:6:17,12.123,7,d-LEM
+
+~~~~
+Calculated Membrane: ['d31-POPC', 'DOPE', 'LBPA', 'Cholesterol']
+Corresponding ratio: ['61', '16', '6', '17']
+Average SL;  Head = 47.7545; Tail = 181.1391
+Average SLD; Head = 1.8302; Tail = 2.0817
+Thickness;   Head = 7.0000; Tail = 12.1230
+Head vol frac = 0.5193
+2-solv = 48.0660
+
+Calculated Membrane: ['Monolayer', 'DMG-PEG-2000']
+Corresponding ratio: [90, 10]
+Average SL;  Head = 47.2508; Tail = 160.1974
+Average SLD; Head = 1.8143; Tail = 1.8632
+Thickness;   Head = 7.0000; Tail = 12.1230
+Head vol frac = 0.5246
+2-solv = 47.5424
+
+Drug ['PolyA', 'PEG'] added to layer 3 of monolayer:
+Corresponding ratio: [90, 10]
+SLD of overlapping drug in H2O: 3.3650
+SLD of overlapping drug in D2O: 4.0760

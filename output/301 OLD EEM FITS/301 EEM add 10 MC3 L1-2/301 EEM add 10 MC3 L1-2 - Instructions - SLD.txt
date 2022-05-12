@@ -1,0 +1,34 @@
+,,,,title=301 EEM add 10 MC3 L1-2
+membranes,lipidRatios,d1,d2,label
+POPC:DOPE:SM:Cholesterol,40:20:6:34,20.067,9.2146,h-EEM
+d31-POPC:DOPE:SM:Cholesterol,40:20:6:34,20.067,9.2146,d-EEM
+
+~~~~
+Calculated Membrane: ['POPC', 'DOPE', 'SM', 'Cholesterol']
+Average SL;  Head = 57.3773; Tail = -14.2918
+Average SLD; Head = 1.8487; Tail = -0.1650
+Thickness;   Head = 9.2146; Tail = 20.0670
+Head vol frac = 0.7803
+2-solv = 21.9727
+
+Calculated Membrane: ['Monolayer', 'DLin-MC3-DMA']
+Average SL;  Head = 52.5801; Tail = -13.4778
+Average SLD; Head = 2.5032; Tail = -0.1565
+Thickness;   Head = 9.2146; Tail = 20.0670
+Head vol frac = 0.5313
+2-solv = 46.8728
+
+~~~~
+Calculated Membrane: ['d31-POPC', 'DOPE', 'SM', 'Cholesterol']
+Average SL;  Head = 57.3773; Tail = 130.0523
+Average SLD; Head = 1.8487; Tail = 1.5013
+Thickness;   Head = 9.2146; Tail = 20.0670
+Head vol frac = 0.7803
+2-solv = 21.9727
+
+Calculated Membrane: ['Monolayer', 'DLin-MC3-DMA']
+Average SL;  Head = 52.5801; Tail = 113.5210
+Average SLD; Head = 2.5032; Tail = 1.3184
+Thickness;   Head = 9.2146; Tail = 20.0670
+Head vol frac = 0.5313
+2-solv = 46.8728

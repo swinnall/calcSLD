@@ -1,0 +1,18 @@
+,,,,title=313 LEM add 10 DMG L1-2 and PEG L3 brush and polyA L3
+membranes,lipidRatios,d1,d2,label
+d31-POPC:DOPE:LBPA:Cholesterol,61:16:6:17,11.468,7,d-LEM
+
+~~~~
+Calculated Membrane: ['d31-POPC', 'DOPE', 'LBPA', 'Cholesterol']
+Average SL;  Head = 47.7545; Tail = 181.1391
+Average SLD; Head = 1.8302; Tail = 2.0817
+Thickness;   Head = 7.0000; Tail = 11.4680
+Head vol frac = 0.4913
+2-solv = 50.8720
+
+Calculated Membrane: ['Monolayer', 'DMG-PEG-2000']
+Average SL;  Head = 47.2508; Tail = 160.1974
+Average SLD; Head = 1.8143; Tail = 1.8632
+Thickness;   Head = 7.0000; Tail = 11.4680
+Head vol frac = 0.4962
+2-solv = 50.3766

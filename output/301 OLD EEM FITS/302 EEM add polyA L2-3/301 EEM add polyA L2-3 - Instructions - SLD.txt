@@ -1,0 +1,34 @@
+,,,,title=301 EEM add polyA L2-3
+membranes,lipidRatios,d1,d2,label
+POPC:DOPE:SM:Cholesterol,40:20:6:34,13.087,7.49,h-EEM
+d31-POPC:DOPE:SM:Cholesterol,40:20:6:34,13.087,7.49,d-EEM
+
+~~~~
+Calculated Membrane: ['POPC', 'DOPE', 'SM', 'Cholesterol']
+Average SL;  Head = 57.3773; Tail = -14.2918
+Average SLD; Head = 1.8487; Tail = -0.1650
+Thickness;   Head = 7.4900; Tail = 13.0870
+Head vol frac = 0.6260
+2-solv = 37.3964
+
+Drug (PolyA) added to layer 2 of monolayer:
+d3 = 12.510000
+2-solv = 28.770422
+3-solv = 91.3740
+2-SLD_H2O = 2.069234
+2-SLD_D2O = 2.164904
+
+~~~~
+Calculated Membrane: ['d31-POPC', 'DOPE', 'SM', 'Cholesterol']
+Average SL;  Head = 57.3773; Tail = 130.0523
+Average SLD; Head = 1.8487; Tail = 1.5013
+Thickness;   Head = 7.4900; Tail = 13.0870
+Head vol frac = 0.6260
+2-solv = 37.3964
+
+Drug (PolyA) added to layer 2 of monolayer:
+d3 = 12.510000
+2-solv = 28.770422
+3-solv = 91.3740
+2-SLD_H2O = 2.069234
+2-SLD_D2O = 2.164904

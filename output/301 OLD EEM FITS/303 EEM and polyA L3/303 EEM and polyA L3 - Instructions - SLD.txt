@@ -1,0 +1,22 @@
+,,,,title=303 EEM and polyA L3
+membranes,lipidRatios,d1,d2,label
+POPC:DOPE:SM:Cholesterol,40:20:6:34,17.146,7.49,h-EEM
+d31-POPC:DOPE:SM:Cholesterol,40:20:6:34,17.146,7.49,d-EEM
+
+~~~~
+Calculated Membrane: ['POPC', 'DOPE', 'SM', 'Cholesterol']
+Corresponding ratio: ['40', '20', '6', '34']
+Average SL;  Head = 38.8445; Tail = -11.3593
+Average SLD; Head = 1.9141; Tail = -0.1356
+Thickness;   Head = 7.4900; Tail = 17.1460
+Head vol frac = 0.5544
+2-solv = 44.5584
+
+~~~~
+Calculated Membrane: ['d31-POPC', 'DOPE', 'SM', 'Cholesterol']
+Corresponding ratio: ['40', '20', '6', '34']
+Average SL;  Head = 38.8445; Tail = 117.7247
+Average SLD; Head = 1.9141; Tail = 1.4049
+Thickness;   Head = 7.4900; Tail = 17.1460
+Head vol frac = 0.5544
+2-solv = 44.5584

@@ -1,0 +1,22 @@
+,,,,title=303 EEM and alt LNPs L3
+membranes,lipidRatios,d1,d2,label
+POPC:DOPE:SM:Cholesterol,40:20:6:34,15,7.5,h-EEM
+d31-POPC:DOPE:SM:Cholesterol,40:20:6:34,15,7.5,d-EEM
+
+~~~~
+Calculated Membrane: ['POPC', 'DOPE', 'SM', 'Cholesterol']
+Corresponding ratio: ['40', '20', '6', '34']
+Average SL;  Head = 38.8445; Tail = -11.3593
+Average SLD; Head = 1.9141; Tail = -0.1356
+Thickness;   Head = 7.5000; Tail = 15.0000
+Head vol frac = 0.4844
+2-solv = 51.5622
+
+~~~~
+Calculated Membrane: ['d31-POPC', 'DOPE', 'SM', 'Cholesterol']
+Corresponding ratio: ['40', '20', '6', '34']
+Average SL;  Head = 38.8445; Tail = 117.7247
+Average SLD; Head = 1.9141; Tail = 1.4049
+Thickness;   Head = 7.5000; Tail = 15.0000
+Head vol frac = 0.4844
+2-solv = 51.5622
