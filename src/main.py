@@ -2,7 +2,7 @@
 " Author: @S.Winnall "
 
 # general imports
-import glob, os, sys
+import glob, os, sys, ast
 import pandas as pd
 import csv
 import shutil
@@ -24,21 +24,21 @@ def organisePaths():
     instructionsName = config.instructionsName
 
     # root inputParams file path/directory
-    inputFileDir  = config.inputDir
+    inputDir  = config.inputDir
 
     # root output directory
-    outputFolderDir = config.outputDir
+    outputDir = config.outputDir
 
-    # get analysis title
-    with open(inputFileDir, newline = '') as f:
+    # get analysis instructions
+    with open(inputDir, newline = '') as f:
         title = list(csv.reader(f))[0][0].split('=')[1]
 
     # read instructions file with pandas
-    instructionsFile = getFile(path=inputFileDir,nSkip=1,delim=',')
+    instructionsFile = getFile(path=inputDir,nSkip=1,delim=',')
 
     # update output path folder dir to include title of chosen analysis
     # e.g. output/analysisTitle/
-    outputDataPath = '' + outputFolderDir + '/' + title + ''
+    outputDataPath = '' + outputDir + '/' + title + ''
 
     try:
         # delete folder if exists and create it again
@@ -49,12 +49,12 @@ def organisePaths():
 
     try:
         # copy input instructions instructionsFilermation to outputDataPath directory
-        shutil.copyfile(inputFileDir, outputDataPath + '/' + instructionsName + '.txt')
+        shutil.copyfile(inputDir, outputDataPath + '/' + instructionsName)
 
         # rename copied instructions file to include analysis title
         # this is the file which will be appended in the relevant analysis
-        old_name              = outputDataPath + '/' + instructionsName + '.txt'
-        outputInstructionFile = outputDataPath + '/' + title + ' - ' + instructionsName + '.txt'
+        old_name              = outputDataPath + '/' + instructionsName
+        outputInstructionFile = outputDataPath + '/' + title + ' - ' + instructionsName
         os.rename(old_name, outputInstructionFile)
 
 

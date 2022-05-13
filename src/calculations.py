@@ -407,6 +407,8 @@ def hasNumbers(inputString):
 
 def main(instructionsFile, outputFilePath):
 
+
+
     # number of membranes to calculate
     nMemb = len(instructionsFile)
 

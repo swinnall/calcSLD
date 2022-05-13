@@ -6,8 +6,8 @@
 
 # defined by USER
 instructionsName = "Instructions - calcSLD.txt"
-inputDir  = "../../UoM-Data-Repository/input/" + instructionsName + ""
-outputDir = "../../UoM-Data-Repository/output/calcSLD/"
+inputDir  = "../../UoM-Data-Repository/input/" + instructionsName
+outputDir = "../../UoM-Data-Repository/output/calcSLD"
 
 
 #################
@@ -23,12 +23,20 @@ very_verbose = False
 # Parameters #
 ##############
 
+# Get analysis parameters from input instructions
+import csv, ast
+with open(inputDir, newline = '') as f:
+    fileList            = list(csv.reader(f))
+    compactChains       = ast.literal_eval(fileList[0][1].split('=')[1])
+    addLipidToMonolayer = ast.literal_eval(fileList[0][2].split('=')[1])
+    addDrugToThirdLayer = ast.literal_eval(fileList[0][3].split('=')[1])
+    addDrugToMonolayer  = ast.literal_eval(fileList[0][4].split('=')[1])
+
+
 ## Multiply average chain vol by factor to model lipid chain compaction
-compactChains      = False
 chainCompactFactor = 0.85
 
 ## Add injected lipid into the existing monolayer
-addLipidToMonolayer      = False
 injectedLipidNames       = ["Monolayer", "DMG-PEG-2000"] # "DLin-MC3-DMA" "DMG-PEG-2000"
 injectedLipidRatios      = [99, 1]
 updateMonolayerThickness = False
@@ -36,8 +44,6 @@ new_d1 = 0
 new_d2 = 0
 
 ## Adding injected drug to system
-addDrugToThirdLayer = False  # in third layer
-addDrugToMonolayer  = False # in both third and second (headgroup) layer
 injectedDrugNames   = ["PolyA","PEG"] # "PolyA", "PEG"
 injectedDrugRatios  = [99,1]
 injectedDrugSizes   = [20, 0]
